@@ -45,3 +45,15 @@ git push -u origin master
 ```
 
 ### Submitting a Pull Request
+
+Go to the organization's repository page, and click on **New pull request**.
+
+Click on **compare across forks**.
+
+Select your fork as the **head fork**. Review the changes, then confirm.
+
+## For organization's members
+
+Test a submitted pull request by cloning the **developer's fork** from which the Pull Request comes.
+
+If everything's OK, merge the Pull Request (it can be done straight from GitHub).
