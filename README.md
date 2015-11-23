@@ -45,3 +45,7 @@ git push -u origin master
 ```
 
 ### Submitting a Pull Request
+
+Go to the organization's repository page, and click on **New pull request**.
+
+Click on **compare across forks**.
