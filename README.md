@@ -9,7 +9,14 @@ All repositories will feature one **master** branch, as well as **release** bran
 
 For repositories containing plug-ins for other software (Magento, Prestashop...), one repository per **major version** will be used, provided that it breaks the API or architecture of the plug-in, making diffs on the **master** branch irrelevant.
 
-*TODO*: Give examples of software versions from one vendor that had a huge impact on the plug-in arcihtecture.
+*TODO*: Give examples of software versions from one vendor that had a huge impact on the plug-in architecture.
+
+### Naming convention
+
+* module repositories : module-prestashop-v1.5
+eg : module-modulename-cmsversion
+* product : productname-sdk-version
+
 
 ## Life Cycle
 
