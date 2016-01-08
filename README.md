@@ -5,7 +5,10 @@ This document aims at providing guidelines for integration of code written eithe
 
 ## General principles
 
-All repositories will feature one **master** branch, as well as **release** branches.
+All repositories will feature :
+* one **master** branch : Identical to what is on production. Used for hotfixes.
+* a **release** branche : The Release Candidate (RC) branch, available on the staging environment.
+* **tags** : The production environment is built from the tags. eg : v1.0.2 with possibly a message or relative changelog file
 
 For repositories containing plug-ins for other software (Magento, Prestashop...), one repository per **major version** will be used, provided that it breaks the API or architecture of the plug-in, making diffs on the **master** branch irrelevant.
 
@@ -13,9 +16,8 @@ For repositories containing plug-ins for other software (Magento, Prestashop...)
 
 ### Naming convention
 
-* module repositories : module-prestashop-v1.5
-eg : module-modulename-cmsversion
-* product : productname-sdk-version
+* module repositories : module-prestashop-v1.5 (eg : module-modulename-cmsversion)
+* product : productname-sdk-majorversion
 
 
 ## Life Cycle
