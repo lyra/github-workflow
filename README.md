@@ -16,8 +16,13 @@ For repositories containing plug-ins for other software (Magento, Prestashop...)
 
 ### Naming convention
 
-* module repositories : module-prestashop-v1.5 (eg : module-modulename-cmsversion)
-* product : productname-sdk-majorversion
+* use lower case
+* use dashes
+* be specific. you may find you have to differentiate between similar ideas later - ie use purchase-rest-service instead of service or rest-service.
+* be consistent. consider usage from the various GIT vendors - how do you want your repositories to be sorted/grouped?
+
+* **module repositories** : plugin-[CMS-NAME]
+* **product :** productname-sdk
 
 
 ## Life Cycle
